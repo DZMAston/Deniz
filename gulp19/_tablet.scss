@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+    .main {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+    }
+    nav ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  @media (min-width:768) {
+    .contact{
+      display: flex;
+      justify-content: space-between;
+      gap: 100px;
+    }
+}
+    
